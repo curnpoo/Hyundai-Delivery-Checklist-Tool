@@ -13,14 +13,28 @@ export class ModelTrimSelector {
         // Model Dropdown
         const modelSelect = document.createElement('select');
         modelSelect.className = 'glass-input';
-        modelSelect.innerHTML = '<option value="">Select Model</option>';
+        modelSelect.innerHTML = '<option value="">Select Vehicle</option>';
 
-        // Get unique models
-        const uniqueModels = [...new Set(this.modelsData.map(m => m.model))];
-        uniqueModels.forEach(model => {
+        // Create unique vehicle identifiers (Year + Model + Powertrain)
+        // We use a Map to ensure uniqueness and store the display string
+        const uniqueVehicles = new Map();
+
+        this.modelsData.forEach(m => {
+            const key = `${m.model_year}|${m.model}|${m.powertrain_family}`;
+            const display = `${m.model_year} ${m.model} ${m.powertrain_family !== 'Gas' ? `(${m.powertrain_family})` : ''}`;
+            uniqueVehicles.set(key, display);
+        });
+
+        // Sort vehicles for better UX (Newest first, then alphabetical)
+        const sortedVehicles = Array.from(uniqueVehicles.entries()).sort((a, b) => {
+            // Sort by display name
+            return a[1].localeCompare(b[1]);
+        });
+
+        sortedVehicles.forEach(([key, display]) => {
             const option = document.createElement('option');
-            option.value = model;
-            option.textContent = model;
+            option.value = key;
+            option.textContent = display;
             modelSelect.appendChild(option);
         });
 
@@ -32,7 +46,7 @@ export class ModelTrimSelector {
 
         // Event Listeners
         modelSelect.addEventListener('change', (e) => {
-            this.selectedModel = e.target.value;
+            this.selectedModelKey = e.target.value;
             this.selectedTrim = null;
             this.updateTrimOptions(trimSelect);
             this.onSelectionChange(null); // Reset selection until trim picked
@@ -40,9 +54,16 @@ export class ModelTrimSelector {
 
         trimSelect.addEventListener('change', (e) => {
             const trimName = e.target.value;
+            if (!this.selectedModelKey) return;
+
+            const [year, model, powertrain] = this.selectedModelKey.split('|');
+
             // Find the full data object for this specific trim
             const fullTrimData = this.modelsData.find(m =>
-                m.model === this.selectedModel && m.trim_name === trimName
+                m.model_year === year &&
+                m.model === model &&
+                m.powertrain_family === powertrain &&
+                m.trim_name === trimName
             );
             this.selectedTrim = fullTrimData;
             this.onSelectionChange(fullTrimData);
@@ -56,16 +77,23 @@ export class ModelTrimSelector {
     updateTrimOptions(trimSelect) {
         trimSelect.innerHTML = '<option value="">Select Trim</option>';
 
-        if (!this.selectedModel) {
+        if (!this.selectedModelKey) {
             trimSelect.disabled = true;
             return;
         }
 
+        const [year, model, powertrain] = this.selectedModelKey.split('|');
+
         const trims = this.modelsData
-            .filter(m => m.model === this.selectedModel)
+            .filter(m =>
+                m.model_year === year &&
+                m.model === model &&
+                m.powertrain_family === powertrain
+            )
             .map(m => m.trim_name);
 
-        trims.forEach(trim => {
+        // Remove duplicates just in case
+        [...new Set(trims)].forEach(trim => {
             const option = document.createElement('option');
             option.value = trim;
             option.textContent = trim;
