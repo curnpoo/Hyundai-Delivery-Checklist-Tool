@@ -17,6 +17,8 @@ class App {
     }
 
     async init() {
+        this.checkSplashScreen();
+
         try {
             const data = await loadData();
             if (!data.models || data.models.length === 0) {
@@ -27,10 +29,57 @@ class App {
 
             this.initSelector();
             initNavigation((section) => this.handleNavChange(section));
+            this.initRippleEffect();
         } catch (error) {
             console.error('Init error:', error);
             this.selectorContainer.innerHTML = `<div class="error-message" style="color: #ff6b6b; padding: 10px;">Error loading data: ${error.message}. <br>Please ensure you are running a local server.</div>`;
         }
+    }
+
+    checkSplashScreen() {
+        const splashScreen = document.getElementById('splash-screen');
+        const closeBtn = document.getElementById('splash-close-btn');
+
+        // Check local storage
+        const hasSeenSplash = localStorage.getItem('hyundai_splash_seen');
+
+        if (!hasSeenSplash) {
+            splashScreen.classList.remove('hidden');
+        }
+
+        closeBtn.addEventListener('click', () => {
+            splashScreen.classList.add('hidden');
+            localStorage.setItem('hyundai_splash_seen', 'true');
+        });
+    }
+
+    initRippleEffect() {
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                const rect = this.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                const ripple = document.createElement('span');
+                ripple.className = 'ripple';
+                ripple.style.left = `${x}px`;
+                ripple.style.top = `${y}px`;
+
+                // Make size relative to button
+                const size = Math.max(rect.width, rect.height);
+                ripple.style.width = ripple.style.height = `${size}px`;
+                // Center the ripple on the click
+                ripple.style.left = `${x - size / 2}px`;
+                ripple.style.top = `${y - size / 2}px`;
+
+                this.appendChild(ripple);
+
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+        });
     }
 
     initSelector() {

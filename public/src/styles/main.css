@@ -293,23 +293,152 @@ body {
     animation: fadeIn 0.4s ease-out forwards;
 }
 
-/* Stagger animations */
-.feature-card:nth-child(1) {
-    animation-delay: 0.1s;
+/* Splash Screen */
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-dark);
+    background-image: linear-gradient(to bottom right, var(--bg-gradient-start), var(--bg-gradient-end));
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-out, visibility 0.5s;
 }
 
-.feature-card:nth-child(2) {
-    animation-delay: 0.2s;
+.splash-screen.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
-.feature-card:nth-child(3) {
-    animation-delay: 0.3s;
+.splash-content {
+    text-align: center;
+    padding: var(--spacing-xl);
+    width: 90%;
+    max-width: 400px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
 }
 
-.feature-card:nth-child(4) {
-    animation-delay: 0.4s;
+.splash-icon {
+    margin-bottom: var(--spacing-sm);
+    animation: float 3s ease-in-out infinite;
 }
 
-.feature-card:nth-child(5) {
-    animation-delay: 0.5s;
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.splash-features {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    margin: var(--spacing-md) 0;
+    padding: 0 var(--spacing-md);
+}
+
+.splash-features li {
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.primary-btn {
+    background: linear-gradient(135deg, var(--hyundai-blue-light), var(--accent-color));
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 170, 210, 0.3);
+}
+
+.primary-btn:active {
+    transform: scale(0.98);
+}
+
+/* Enhanced Bottom Nav */
+.bottom-nav {
+    padding: 0 var(--spacing-md);
+    gap: var(--spacing-md);
+    background: rgba(10, 10, 10, 0.8);
+    /* Darker for contrast */
+    backdrop-filter: blur(20px);
+}
+
+.nav-item {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    /* For ripple */
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    padding: 10px;
+    height: auto;
+    min-height: 56px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item.active {
+    background: rgba(0, 170, 210, 0.15);
+    color: var(--accent-color);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 170, 210, 0.2);
+    border: 1px solid rgba(0, 170, 210, 0.3);
+}
+
+.nav-item .icon {
+    font-size: 1.4rem;
+    margin-bottom: 2px;
+}
+
+.nav-item .label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Water Drop Ripple Animation */
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+    pointer-events: none;
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* Feature Card Animations */
+.feature-card {
+    /* existing styles... */
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
