@@ -1,9 +1,9 @@
-const CACHE_NAME = 'hyundai-delivery-v2';
+const CACHE_NAME = 'hyundai-delivery-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
-  '../src/styles/main.css',
-  '../src/scripts/app.js'
+  './src/styles/main.css',
+  './src/scripts/app.js'
 ];
 
 self.addEventListener('install', (event) => {

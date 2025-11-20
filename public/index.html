@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Hyundai Delivery Guide</title>
     <meta name="description" content="Interactive delivery guide for new Hyundai owners.">
     <meta name="theme-color" content="#002c5f">
-    
+
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
-    
+
     <!-- Styles -->
-    <link rel="stylesheet" href="../src/styles/main.css">
-    
+    <link rel="stylesheet" href="src/styles/main.css">
+
     <!-- Fonts (using system fonts for speed, or Google Fonts if requested later) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="app-container">
         <!-- Top Bar / Selector -->
@@ -58,7 +60,7 @@
     </div>
 
     <!-- Scripts -->
-    <script type="module" src="../src/scripts/app.js"></script>
+    <script type="module" src="src/scripts/app.js"></script>
     <script>
         // Service Worker Registration
         if ('serviceWorker' in navigator) {
@@ -74,4 +76,5 @@
         }
     </script>
 </body>
+
 </html>
