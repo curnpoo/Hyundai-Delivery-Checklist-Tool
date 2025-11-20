@@ -1,0 +1,212 @@
+{
+    "CruiseControl": {
+        "title": "Smart Cruise Control",
+        "category": "essentials",
+        "overview": "Maintain a set speed and distance from the vehicle ahead.",
+        "steps": [
+            "Press the 'Cruise' button on the steering wheel.",
+            "Accelerate to desired speed and press 'Set-'.",
+            "Use the distance button to adjust following gap."
+        ]
+    },
+    "PhonePairing": {
+        "title": "Bluetooth Pairing",
+        "category": "setup",
+        "overview": "Connect your phone for calls and music.",
+        "steps": [
+            "Press 'Setup' > 'Device Connections'.",
+            "Select 'Add New'.",
+            "On your phone, select the vehicle name in Bluetooth settings."
+        ]
+    },
+    "CarPlay": {
+        "title": "Apple CarPlay / Android Auto",
+        "category": "setup",
+        "overview": "Project your phone's apps onto the screen.",
+        "steps": [
+            "Connect your phone via USB (or wirelessly if supported).",
+            "Follow the prompts on the vehicle screen.",
+            "Enable CarPlay/Android Auto on your phone."
+        ]
+    },
+    "LFA": {
+        "title": "Lane Following Assist",
+        "category": "essentials",
+        "overview": "Keeps the vehicle centered in its lane.",
+        "steps": [
+            "Look for the steering wheel icon on the cluster.",
+            "Press the steering wheel button to toggle on/off.",
+            "Green icon means active."
+        ]
+    },
+    "PowerLiftgate": {
+        "title": "Smart Power Liftgate",
+        "category": "setup",
+        "overview": "Adjust the opening height and speed.",
+        "steps": [
+            "Go to Setup > Vehicle > Door.",
+            "Select 'Power Liftgate Opening Speed' or 'Height'.",
+            "Stand behind vehicle with key to test Smart Open."
+        ]
+    },
+    "AmbientLighting": {
+        "title": "Ambient Lighting",
+        "category": "fun",
+        "overview": "Customize the interior mood lighting.",
+        "steps": [
+            "Go to Setup > Vehicle > Lights.",
+            "Select 'Ambient Light'.",
+            "Choose your preferred color and brightness."
+        ]
+    },
+    "ChargingBasics": {
+        "title": "EV Charging Basics",
+        "category": "essentials",
+        "overview": "How to open the port and plug in.",
+        "steps": [
+            "Press the charging door icon or push the door itself.",
+            "Plug in the connector until it clicks.",
+            "Check the dashboard for charging status."
+        ]
+    },
+    "V2L": {
+        "title": "Vehicle-to-Load (V2L)",
+        "category": "fun",
+        "overview": "Power external devices with your car.",
+        "steps": [
+            "Plug the V2L adapter into the charging port.",
+            "Open the cap and plug in your device.",
+            "Press the power button on the adapter."
+        ]
+    },
+    "DigitalKey": {
+        "title": "Hyundai Digital Key",
+        "category": "setup",
+        "overview": "Use your smartphone as your car key.",
+        "steps": [
+            "Download the Hyundai Digital Key app.",
+            "Follow the pairing instructions in the app.",
+            "Place phone on the wireless charger to start."
+        ]
+    },
+    "SurroundView": {
+        "title": "Surround View Monitor",
+        "category": "essentials",
+        "overview": "360-degree view for parking.",
+        "steps": [
+            "Press the 'View' button near the gear selector.",
+            "Select different camera angles on the screen.",
+            "Automatically activates in Reverse."
+        ]
+    },
+    "BoseAudio": {
+        "title": "Premium Audio Settings",
+        "category": "fun",
+        "overview": "Optimize your listening experience.",
+        "steps": [
+            "Go to Setup > Sound > Premium Sound.",
+            "Adjust 'Centerpoint' or 'Dynamic Speed Compensation'.",
+            "Customize equalizer settings."
+        ]
+    },
+    "HDA": {
+        "title": "Highway Driving Assist",
+        "category": "essentials",
+        "overview": "Assists with speed and centering on highways.",
+        "steps": [
+            "Activate Smart Cruise Control on a highway.",
+            "Look for the 'HDA' icon in green.",
+            "The car will adjust speed to limits automatically."
+        ]
+    },
+    "RSPA": {
+        "title": "Remote Smart Parking",
+        "category": "fun",
+        "overview": "Park your car from outside using the key fob.",
+        "steps": [
+            "Exit the vehicle and lock it.",
+            "Press and hold the 'Hold' (Remote Start) button.",
+            "Press and hold the Forward or Backward arrow buttons."
+        ]
+    },
+    "VisionRoof": {
+        "title": "Vision Roof",
+        "category": "fun",
+        "overview": "Open the shade for a panoramic view.",
+        "steps": [
+            "Use the overhead console buttons.",
+            "One touch to open the shade.",
+            "Note: The glass itself does not open on Vision Roof."
+        ]
+    },
+    "HUD": {
+        "title": "Head-Up Display",
+        "category": "setup",
+        "overview": "Project info onto the windshield.",
+        "steps": [
+            "Go to Setup > Vehicle > Head-Up Display.",
+            "Adjust position, brightness, and content.",
+            "Select 'Augmented Reality' if available."
+        ]
+    },
+    "DriveModes": {
+        "title": "Drive Modes",
+        "category": "essentials",
+        "overview": "Select the right mode for your drive.",
+        "steps": [
+            "Locate the Drive Mode switch/button.",
+            "Toggle between Eco, Normal, Sport, and Snow.",
+            "Check the cluster for the mode change."
+        ]
+    },
+    "AutoHold": {
+        "title": "Auto Hold",
+        "category": "essentials",
+        "overview": "Keeps the car stopped without holding the brake.",
+        "steps": [
+            "Press the 'Auto Hold' button near the gear selector.",
+            "Come to a complete stop.",
+            "Remove foot from brake; car stays put until you accelerate."
+        ]
+    },
+    "BlueLink": {
+        "title": "Bluelink Setup",
+        "category": "setup",
+        "overview": "Connect your car to the Hyundai app.",
+        "steps": [
+            "Download the MyHyundai app.",
+            "Go to Setup > Bluelink > Activate.",
+            "Follow the prompts to link your account."
+        ]
+    },
+    "HeatedSeats": {
+        "title": "Heated/Ventilated Seats",
+        "category": "fun",
+        "overview": "Climate control for your seats.",
+        "steps": [
+            "Press the seat icon buttons on the console or door.",
+            "Red for heat, Blue for ventilation.",
+            "Press multiple times to adjust intensity."
+        ]
+    },
+    "RegenBraking": {
+        "title": "Regenerative Braking",
+        "category": "essentials",
+        "overview": "Adjust how much the car slows when you lift off.",
+        "steps": [
+            "Use the paddle shifters behind the steering wheel.",
+            "Left paddle increases regen (slower).",
+            "Right paddle decreases regen (coasting)."
+        ]
+    },
+    "IPedal": {
+        "title": "i-Pedal Mode",
+        "category": "fun",
+        "overview": "One-pedal driving for EVs.",
+        "steps": [
+            "Pull the left paddle until 'i-Pedal' appears.",
+            "Release accelerator to come to a full stop.",
+            "Great for city driving."
+        ]
+    }
+}

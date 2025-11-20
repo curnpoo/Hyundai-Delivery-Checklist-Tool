@@ -1,0 +1,162 @@
+model_year,model,powertrain_family,trim_name,segment,delivery_focus_notes
+2025,Venue,Gas,SE,Subcompact SUV,"Entry trim – focus on basic controls, SmartSense safety, phone pairing, simple audio and climate, no advanced luxury features."
+2025,Venue,Gas,SEL,Subcompact SUV,"Adds more convenience (keyless, nicer interior touches) – highlight drive modes if equipped, upgraded infotainment, and extra USB/power options."
+2025,Venue,Gas,Limited,Subcompact SUV,"Top Venue – emphasize LED lighting, sunroof (if equipped), navigation/upgraded screen, and any extra driver-assist features vs SE/SEL."
+
+2026,Venue,Gas,SE,Subcompact SUV,"Entry trim – same core Venue delivery: controls, SmartSense basics, phone pairing, simple climate. Call out that AWD is not available."
+2026,Venue,Gas,SEL,Subcompact SUV,"Single higher trim for 2026 – cover style upgrades, H-Tex/cloth seating if present, two-tone roof and cosmetic changes, plus same tech as SE."
+
+2025,Kona,Gas,SE,Subcompact SUV,"Base Kona – explain digital cluster, basic safety, drive modes, phone pairing, and simple climate/audio; no sunroof or advanced camera systems."
+2025,Kona,Gas,SEL,Subcompact SUV,"Adds comfort features (heated seats, more USBs, possible roof rails) – show convenience features and any extra SmartSense items."
+2025,Kona,Gas,SEL Convenience,Subcompact SUV,"Step up trim – highlight larger screen, more driver-assist features (HDA, etc. where equipped), push-button start and keyless access."
+2025,Kona,Gas,N Line S,Subcompact SUV,"Sport appearance – emphasize sport styling, wheel/tire differences, paddle shifters if equipped; same core tech as mid trims."
+2025,Kona,Gas,N Line,Subcompact SUV,"Sport-focused – tour N Line styling, possible sport seats and tuning; still cover daily-use features first (safety, phone, cruise)."
+2025,Kona,Gas,Limited,Subcompact SUV,"Top gas Kona – emphasize full digital cockpit, Surround View (if equipped), power/ventilated seats, premium audio, and sunroof."
+
+2025,Kona Electric,EV,SE,Subcompact SUV,"Entry EV – focus on charging basics, range display, regen modes, scheduled charging, climate vs range, and smartphone app connectivity."
+2025,Kona Electric,EV,SEL,Subcompact SUV,"Adds heated seats, power driver seat, roof rails, more comfort – cover same EV fundamentals plus extra comfort switches and memory where present."
+2025,Kona Electric,EV,N Line,Subcompact SUV,"Performance-styled EV – explain same EV controls with extra attention to drive modes, sport feel, N Line interior/exterior and premium audio."
+2025,Kona Electric,EV,Limited,Subcompact SUV,"Top EV – highlight advanced driver assistance, surround/parking cameras if equipped, Bose audio, ambient lighting, power seat/memory."
+
+2026,Kona,Gas,SE,Subcompact SUV,"Base 2026 Kona – focus on updated interior, digital screens, SmartSense basics, phone pairing, drive modes."
+2026,Kona,Gas,SEL Sport,Subcompact SUV,"Adds more style and features – cover upgraded wheels, convenience features, and any added driver assists vs SE."
+2026,Kona,Gas,SEL Premium,Subcompact SUV,"Comfort-focused – emphasize H-Tex seats, larger wheels, upgraded cluster, and extra comfort/tech for daily use."
+2026,Kona,Gas,Limited,Subcompact SUV,"Top trim – show all tech: big screens, advanced safety suite, ambient lighting (if equipped), sunroof, and premium audio."
+
+2025,Tucson,Gas,SE,Compact SUV,"Base Tucson – focus on 12.3-inch touchscreen, SmartSense safety, basic cruise control, drive modes, phone pairing, climate controls."
+2025,Tucson,Gas,SEL,Compact SUV,"Adds heated seats, 8-way power driver seat, dual auto climate, wireless charging – demonstrate seat/comfort settings and Digital Key if equipped."
+2025,Tucson,Gas,SEL Convenience,Compact SUV,"Highlights: 12.3-inch cluster, nav, ambient lighting, sunroof – cover cluster customization, navigation, HDA, and liftgate if included."
+2025,Tucson,Gas,XRT,Compact SUV,"Adventure look – show tow hitch, cladding, possible AWD setup, terrain-related drive modes, and roof features while still covering tech basics."
+2025,Tucson,Gas,N Line,Compact SUV,"Sporty trim – emphasize N Line styling, sport seats, paddles if available; delivery still prioritizes safety systems and infotainment first."
+2025,Tucson,Gas,Limited,Compact SUV,"Top gas Tucson – cover HUD (if equipped), Surround View, Remote Smart Parking Assist, leather seats, ventilated seats, Bose audio, panoramic roof."
+
+2025,Tucson,Hybrid,Blue,Compact SUV,"Efficiency-focused hybrid – explain hybrid system behavior, EV mode, regen, fuel economy screens; show same safety/infotainment basics as SE/SEL."
+2025,Tucson,Hybrid,SEL Convenience,Compact SUV,"Comfort + efficiency – highlight added tech (bigger screens, HDA), hybrid energy info, and smart liftgate if included."
+2025,Tucson,Hybrid,N Line,Compact SUV,"Sportier hybrid – emphasize performance feel of hybrid plus N styling, but cover hybrid-specific displays and charge/regen behavior first."
+2025,Tucson,Hybrid,Limited,Compact SUV,"Top hybrid – same Limited tech (HUD, SVM, RSPA, Bose, leather/vent seats) plus hybrid-specific range/energy displays."
+
+2025,Tucson,Plug-in Hybrid,SEL,Compact SUV,"PHEV – focus hard on charging, EV range, charging ports, charge settings, and mode switching; then standard Tucson tech & safety."
+2025,Tucson,Plug-in Hybrid,Limited,Compact SUV,"Fully loaded PHEV – combine PHEV delivery (charging, EV mode, scheduling) with full Limited suite (HUD, premium audio, cameras, luxury touches)."
+
+2026,Tucson,Gas,SE,Compact SUV,"Base 2026 Tucson – similar to 2025 but updated; focus on revised interior, large screens, SmartSense, phone pairing, basic cruise."
+2026,Tucson,Gas,SEL,Compact SUV,"Adds comfort/convenience; cover heated seats, power seat, extra safety items, and any Digital Key or wireless charging."
+2026,Tucson,Gas,XRT,Compact SUV,"Adventure trim – emphasize appearance + light off-road readiness, tow options, AWD configuration, while not skipping tech/safety walkthrough."
+2026,Tucson,Gas,SEL Premium,Compact SUV,"Near-top – highlight extra luxury/tech over SEL: more cameras, nicer interior, possibly sunroof and advanced HDA."
+2026,Tucson,Gas,Limited,Compact SUV,"Top 2026 gas Tucson – full tech suite; focus on HUD (if fitted), Surround View, RSPA, ambient lighting, premium audio and seat comfort."
+
+2026,Tucson,Hybrid,Blue SE,Compact SUV,"Base hybrid for 2026 – explain hybrid system first, then standard safety and 12.3-inch display behavior."
+2026,Tucson,Hybrid,SEL,Compact SUV,"Mid hybrid – blend comfort and efficiency; cover hybrid energy screens plus upgraded interior features vs Blue."
+2026,Tucson,Hybrid,SEL Convenience,Compact SUV,"More loaded hybrid – treat like Limited-lite: more cameras, more tech, still hybrid-focused delivery on efficiency and regen."
+2026,Tucson,Hybrid,Limited,Compact SUV,"Top hybrid – same Limited feature walk as gas but with emphasis on hybrid powertrain, energy usage displays and EV-like behavior."
+
+2026,Tucson,Plug-in Hybrid,SEL,Compact SUV,"Carry-over PHEV SEL – charging and EV mode explanation first, then Tucson features; stress plug-in charging vs standard hybrid."
+2026,Tucson,Plug-in Hybrid,Limited,Compact SUV,"Top PHEV SEL – combines full PHEV explanation with Limited-level comfort and tech features."
+
+2025,Santa Fe,Gas,SE,Midsize SUV,"New body style – explain seating configuration, drive selector, safety systems, phone pairing, and basic drive modes."
+2025,Santa Fe,Gas,SEL,Midsize SUV,"Adds convenience (heated seats, more tech) – cover comfort controls and any liftgate settings."
+2025,Santa Fe,Gas,XRT,Midsize SUV,"More rugged – explain roof rails, towing, terrain-oriented drive modes; treat tech similar to SEL."
+2025,Santa Fe,Gas,Limited,Midsize SUV,"Luxury-leaning – focus on leather, ventilated seats, sunroof, advanced cameras and audio, cluster customization."
+2025,Santa Fe,Gas,Calligraphy,Midsize SUV,"Top luxury – same Limited items plus maximum soft-touch/premium details; emphasize ambient lighting and highest driver-assist package."
+
+2025,Santa Fe,Hybrid,SEL,Midsize SUV,"Hybrid – explain powertrain, EV mode, regen, and energy screens; then same SEL comfort/tech as gas."
+2025,Santa Fe,Hybrid,Limited,Midsize SUV,"Upscale hybrid – combine hybrid delivery with Limited luxury (leather, cameras, audio, seats)."
+2025,Santa Fe,Hybrid,Calligraphy,Midsize SUV,"Top hybrid – emphasize quietness, range, comfort, ambient lighting, full safety suite and HUD if equipped."
+
+2026,Santa Fe,Gas,SE,Midsize SUV,"2026 update – call out new 8-speed auto vs old DCT, then same essential delivery: controls, safety, phone, drive modes." 
+2026,Santa Fe,Gas,SEL,Midsize SUV,"Adds comfort/convenience vs SE – highlight interior upgrades, heated seats, and liftgate options."
+2026,Santa Fe,Gas,XRT,Midsize SUV,"Rugged trim – emphasize appearance, towing, AWD, and terrain drive modes, still covering safety and phone basics."
+2026,Santa Fe,Gas,Limited,Midsize SUV,"Near-top – focus on advanced cameras, HUD (if present), upgraded seats and interior materials."
+2026,Santa Fe,Gas,Calligraphy,Midsize SUV,"Top gas – full luxury; walkthrough of all comfort/tech features plus driver profiles, ambient lighting, and seat/memory."
+
+2026,Santa Fe,Hybrid,SEL,Midsize SUV,"Hybrid SEL – same as 2025 hybrid SEL delivery: power split explanation, regen, energy screens, and comfort tech."
+2026,Santa Fe,Hybrid,Limited,Midsize SUV,"Hybrid Limited – combine hybrid talk with Limited-level tech and seating."
+2026,Santa Fe,Hybrid,Calligraphy,Midsize SUV,"Hybrid Calligraphy – flagship; focus on quiet hybrid drive, full luxury cabin, and full active safety stack."
+
+2025,Palisade,Gas,SE,Three-row SUV,"Base three-row – cover seating controls, rear climate, safety systems, basic cruise, and phone pairing for families."
+2025,Palisade,Gas,SEL,Three-row SUV,"Adds more comfort and seat options (captain’s chairs available) – show 2nd/3rd row access, USBs, and power seat adjustments."
+2025,Palisade,Gas,XRT,Three-row SUV,"Rugged appearance – explain roof/tire aesthetic, towing, and HTRAC AWD usage for family trips."
+2025,Palisade,Gas,SEL Premium,Three-row SUV,"Family comfort trim – focus on 2nd-row comforts, available sunroof(s), and extra tech versus SEL."
+2025,Palisade,Gas,Limited,Three-row SUV,"Luxury – walkthrough of leather seating, surround view, HUD (if equipped), premium audio, seat ventilation/heating."
+2025,Palisade,Gas,Calligraphy,Three-row SUV,"Top luxury – emphasize highest-end interior, ambient lighting, unique wheels, and full driving-assist features."
+2025,Palisade,Gas,Calligraphy Night,Three-row SUV,"Appearance variant – same features as Calligraphy with dark styling; focus more on look differences, same tech walkthrough."
+
+2026,Palisade,Gas,SE,Three-row SUV,"New-gen Palisade – bigger footprint; cover dual 12.3-inch displays, safety basics, seat/fold functions, and HTRAC overview."
+2026,Palisade,Gas,SEL,Three-row SUV,"Adds comfort – show 2nd-row upgrades, power seats, and family-focused features."
+2026,Palisade,Gas,SEL Convenience,Three-row SUV,"More tech – emphasize extra driver assists, upgraded screens, and convenience features vs SEL."
+2026,Palisade,Gas,SEL Premium,Three-row SUV,"High-content gas trim – focus on near-luxury interior, sunroof, and camera features."
+2026,Palisade,Gas,XRT Pro,Three-row SUV,"Off-road styled – explain appearance, tow capabilities, HTRAC modes, while still doing full tech/safety overview."
+2026,Palisade,Gas,Limited,Three-row SUV,"Premium gas – highlight leather, ambient lighting, cameras, HUD (if equipped), and premium audio."
+2026,Palisade,Gas,Calligraphy,Three-row SUV,"Top gas – full luxury; focus on comfort, quietness, and full driver assistance stack."
+
+2026,Palisade,Hybrid,Blue SEL,Three-row SUV,"Entry hybrid – emphasize hybrid operation, EV crawl in traffic, range, and how HTRAC behaves with hybrid system."
+2026,Palisade,Hybrid,SEL,Three-row SUV,"Hybrid SEL – same as Blue SEL with more comfort/tech; show energy screens and EV/engine transitions."
+2026,Palisade,Hybrid,SEL Premium,Three-row SUV,"Comfort-heavy hybrid – focus on long-trip comfort, charging (regenerative only), and family amenities."
+2026,Palisade,Hybrid,Limited,Three-row SUV,"Premium hybrid – blend hybrid-fuel savings explanation with Limited luxury tech."
+2026,Palisade,Hybrid,Calligraphy,Three-row SUV,"Top hybrid – ultimate comfort + hybrid system; make sure to show all driver-assist and display customization."
+
+2025,Elantra,Gas,SE,Compact Sedan,"Base sedan – cover SmartSense basics, basic cluster, cruise, phone pairing, and simple climate/audio layout."
+2025,Elantra,Gas,SEL Sport,Compact Sedan,"Adds features and slightly sportier look – highlight extra comfort and wheel upgrades vs SE."
+2025,Elantra,Gas,SEL Convenience,Compact Sedan,"More tech – emphasize larger screen, more safety tech, possibly sunroof and wireless charging."
+2025,Elantra,Gas,N Line,Compact Sedan,"Sport variant – explain turbo engine behavior, drive modes, paddle shifters, and sport seats while still showing safety basics."
+2025,Elantra,Gas,Limited,Compact Sedan,"Top gas Elantra – cover full safety suite, leather, Bose audio (if equipped), and digital cluster customization."
+
+2025,Elantra,Hybrid,Blue,Compact Sedan,"Efficiency trim – explain hybrid system, EV mode, regen, and fuel-economy coaching screens."
+2025,Elantra,Hybrid,SEL Sport,Compact Sedan,"Mid hybrid – mix of efficiency and comfort; cover extra features beyond Blue and how they affect daily driving."
+2025,Elantra,Hybrid,Limited,Compact Sedan,"Top hybrid – add luxury/tech walk to hybrid explanation (leather, sunroof, premium audio, full safety)."
+
+2026,Elantra,Gas,SE,Compact Sedan,"Updated 2026 Elantra – same base delivery: controls, SmartSense, phone, simple cluster."
+2026,Elantra,Gas,SEL Sport,Compact Sedan,"Adds equipment over SE – explain extra comfort/safety, wheels, and tech."
+2026,Elantra,Gas,SEL Sport Premium,Compact Sedan,"Higher-content SEL – treat like prior SEL Convenience; highlight dual 12.3-inch displays where equipped, nav, and advanced safety."
+2026,Elantra,Gas,Limited,Compact Sedan,"Top 2026 Elantra – walk through all tech, cluster modes, leather, and driver-assist settings."
+
+2025,Sonata,Gas,SE,Midsize Sedan,"Entry – show new styling, 12.3-inch display, SmartSense, basic cruise, and phone pairing."
+2025,Sonata,Gas,SEL,Midsize Sedan,"Adds comfort and features; highlight keyless entry, heated seats, and convenience upgrades vs SE."
+2025,Sonata,Gas,SEL Convenience,Midsize Sedan,"Big tech jump – emphasize dual screens, nav, wireless charging, and extra driver-assist features."
+2025,Sonata,Gas,N Line,Midsize Sedan,"Performance trim – turbo engine, N transmission, sport seats; cover performance features but still teach safety/assist systems clearly."
+
+2025,Sonata,Hybrid,SEL Hybrid,Midsize Sedan,"Hybrid – explain gauge cluster energy flow, EV mode, and efficiency tips plus typical SEL comforts."
+2025,Sonata,Hybrid,Limited Hybrid,Midsize Sedan,"Top hybrid – add leather, panoramic roof, Blind-Spot View Monitor, and Remote Smart Parking Assist walkthrough to hybrid basics."
+
+2025,Santa Cruz,Gas,SE,Compact Pickup,"Base – explain truck bed features, underfloor storage, tailgate use plus standard SUV-style safety/infotainment."
+2025,Santa Cruz,Gas,SEL,Compact Pickup,"Adds convenience (heated seats, keyless) – highlight bed utility plus comfort upgrades."
+2025,Santa Cruz,Gas,XRT,Compact Pickup,"Turbo AWD adventure trim – explain engine difference, AWD system, and extra tow/off-road aids."
+2025,Santa Cruz,Gas,Limited,Compact Pickup,"Top trim – cover HDA, Surround View, Blind-Spot View Monitor, premium audio, and all bed/utility tricks."
+
+2026,Santa Cruz,Gas,SE,Compact Pickup,"Base 2026 – same delivery as 2025 SE with updated content; focus on bed usage, safety, and phone pairing."
+2026,Santa Cruz,Gas,SEL,Compact Pickup,"Adds comfort – show heated seats, keyless access, and infotainment upgrades."
+2026,Santa Cruz,Gas,SEL Activity,Compact Pickup,"Activity/“Night”-style trim – emphasize lifestyle accessories, appearance, and added convenience features."
+2026,Santa Cruz,Gas,XRT,Compact Pickup,"Turbo AWD – stress performance, towing, and AWD modes plus full tech/safety walkthrough."
+2026,Santa Cruz,Gas,Limited,Compact Pickup,"Full luxury Santa Cruz – focus on all camera systems, HDA, leather, and premium audio."
+
+2025,Ioniq 5,EV,SE Standard Range,EV Crossover,"Base battery – teach charging (home/DC), range, route planning, and basic infotainment; rear-motor only."
+2025,Ioniq 5,EV,SE,EV Crossover,"Larger pack – emphasize range upgrade, available AWD, and same EV interface; show charge scheduling and climate preconditioning."
+2025,Ioniq 5,EV,SEL,EV Crossover,"Adds comfort/tech (power seats, upgraded interior) – highlight HDA, wireless charging, and interior ambient touches."
+2025,Ioniq 5,EV,XRT,EV Crossover,"Adventure-themed – show appearance, possible AWD, tow rating, and utility while keeping EV training first."
+2025,Ioniq 5,EV,Limited,EV Crossover,"Top trim – cover full HUD, premium audio, ventilated seats, full camera suite, and most advanced driver assistance."
+2025,Ioniq 5,EV,Ioniq 5 N,EV Crossover,"High-performance EV – emphasize N drive modes, N e-Shift, track functions, launch control, while still teaching day-to-day EV use, charging, and safety."
+
+2026,Ioniq 5,EV,SE Standard Range,EV Crossover,"Similar trim structure with lower pricing – same EV delivery, mention included dual-amperage charger and new color options."
+2026,Ioniq 5,EV,SE,EV Crossover,"Same as 2025 SE – emphasize range, AWD availability, and charging."
+2026,Ioniq 5,EV,SEL,EV Crossover,"Mid trim – comfort/tech step up; same delivery as 2025 SEL."
+2026,Ioniq 5,EV,XRT,EV Crossover,"Adventure EV – focus on AWD and outdoors usage plus EV fundamentals."
+2026,Ioniq 5,EV,Limited,EV Crossover,"Top 2026 – full luxury and tech; same delivery pattern as 2025 Limited."
+2026,Ioniq 5,EV,Ioniq 5 N,EV Crossover,"Carry-over performance EV – stress N features and track vs street settings."
+
+2025,Ioniq 6,EV,SE Standard Range,EV Sedan,"Base battery – explain aero sedan range advantage, charging, EV screens, and drive modes."
+2025,Ioniq 6,EV,SE,EV Sedan,"Bigger pack – same EV training plus more range; mention RWD vs AWD choice."
+2025,Ioniq 6,EV,SEL,EV Sedan,"Adds comfort tech – show extra driver assists, interior upgrades, and any audio/lighting enhancements."
+2025,Ioniq 6,EV,Limited,EV Sedan,"Top trim – emphasize full safety suite, HUD (if equipped), premium audio, and seat comfort."
+
+2026,Ioniq 6,EV,SE Standard Range,EV Sedan,"Similar structure – EV basics unchanged; updated styling if present."
+2026,Ioniq 6,EV,SE,EV Sedan,"Mid-range – same EV explanation plus more comfort than SE SR."
+2026,Ioniq 6,EV,SEL,EV Sedan,"Higher content – more driver-assist and interior upgrades."
+2026,Ioniq 6,EV,Limited,EV Sedan,"Top comfort/tech – same delivery pattern as 2025 Limited."
+2026,Ioniq 6,EV,Ioniq 6 N,EV Sedan,"High-performance sedan – explain N dual-motor power, N Grin Boost, performance modes, while emphasizing everyday range/charging and safety."
+
+2026,Ioniq 9,EV,S,Three-row EV SUV,"Base 3-row EV – explain 3-row layout, 110 kWh battery, single-motor RWD, charging, and family safety/tech basics."
+2026,Ioniq 9,EV,SE,Three-row EV SUV,"AWD SE – add explanation of dual-motor AWD vs S; focus on traction and weather confidence."
+2026,Ioniq 9,EV,SEL,Three-row EV SUV,"More comfort and tech – highlight seating upgrades, extra driver-assist, and more premium feel."
+2026,Ioniq 9,EV,Performance Limited,Three-row EV SUV,"Performance AWD – emphasize higher output, possible larger wheels/tires, while still focusing on family usability and range."
+2026,Ioniq 9,EV,Performance Calligraphy,Three-row EV SUV,"Top luxury – full interior upgrade + performance; focus on refinement, quietness, and full tech suite."
+2026,Ioniq 9,EV,Performance Calligraphy Design,Three-row EV SUV,"Style-focused flagship – same feature content as Performance Calligraphy with unique design touches; deliver as ultimate premium family EV."
+

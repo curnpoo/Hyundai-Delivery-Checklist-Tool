@@ -1,0 +1,16 @@
+{
+  "name": "Hyundai Delivery Guide",
+  "short_name": "Hyundai Guide",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#002c5f",
+  "theme_color": "#002c5f",
+  "description": "Interactive delivery guide for new Hyundai owners.",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

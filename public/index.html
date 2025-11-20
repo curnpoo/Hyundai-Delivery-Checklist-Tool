@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hyundai Delivery Guide</title>
+    <meta name="description" content="Interactive delivery guide for new Hyundai owners.">
+    <meta name="theme-color" content="#002c5f">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../src/styles/main.css">
+    
+    <!-- Fonts (using system fonts for speed, or Google Fonts if requested later) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Bar / Selector -->
+        <header class="app-header glass-panel">
+            <div class="logo-area">
+                <h1>Hyundai Delivery</h1>
+            </div>
+            <div id="model-selector-container">
+                <!-- ModelTrimSelector component will mount here -->
+                <div class="selector-placeholder">Loading Models...</div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main id="main-content" class="content-area">
+            <!-- Dynamic content will be injected here -->
+            <div class="welcome-state">
+                <h2>Welcome to your new Hyundai</h2>
+                <p>Select your vehicle model and trim to get started.</p>
+            </div>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav glass-panel">
+            <button class="nav-item active" data-target="essentials">
+                <span class="icon">🚗</span>
+                <span class="label">Essentials</span>
+            </button>
+            <button class="nav-item" data-target="setup">
+                <span class="icon">⚙️</span>
+                <span class="label">Setup</span>
+            </button>
+            <button class="nav-item" data-target="fun">
+                <span class="icon">✨</span>
+                <span class="label">Fun</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="../src/scripts/app.js"></script>
+    <script>
+        // Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(registration => {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(registrationError => {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
