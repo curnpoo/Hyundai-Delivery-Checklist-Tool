@@ -17,12 +17,20 @@ class App {
     }
 
     async init() {
-        const data = await loadData();
-        this.modelsData = data.models;
-        this.featuresData = data.features;
+        try {
+            const data = await loadData();
+            if (!data.models || data.models.length === 0) {
+                throw new Error('No model data loaded');
+            }
+            this.modelsData = data.models;
+            this.featuresData = data.features;
 
-        this.initSelector();
-        initNavigation((section) => this.handleNavChange(section));
+            this.initSelector();
+            initNavigation((section) => this.handleNavChange(section));
+        } catch (error) {
+            console.error('Init error:', error);
+            this.selectorContainer.innerHTML = `<div class="error-message" style="color: #ff6b6b; padding: 10px;">Error loading data: ${error.message}. <br>Please ensure you are running a local server.</div>`;
+        }
     }
 
     initSelector() {

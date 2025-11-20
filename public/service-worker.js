@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hyundai-delivery-v1';
+const CACHE_NAME = 'hyundai-delivery-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
