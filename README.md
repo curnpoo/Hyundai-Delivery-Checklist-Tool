@@ -39,19 +39,12 @@ A mobile-first, responsive web application for Hyundai sales consultants to assi
     *   Open your phone's browser and type that IP followed by `:8000` (e.g., `http://192.168.1.5:8000`).
     *   **Add to Home Screen**: Tap the Share button (iOS) or Menu (Android) and select "Add to Home Screen" to install it as an app.
 
-## Deployment (Optional)
-
-To put this online for everyone to use without your computer:
-1.  Upload this entire folder to GitHub.
-2.  Connect your GitHub repo to **Netlify** or **Vercel**.
-3.  Set the **Publish Directory** to `public`.
-
-3.  **Adding New Models**:
+5.  **Adding New Models**:
     -   Edit `src/data/models_trims_2025_2026.csv`.
     -   Add a new row with the Model Year, Model, Trim, etc.
     -   Ensure the `trim_name` matches standard naming conventions used in `src/scripts/featureMapper.js` for automatic feature assignment.
 
-4.  **Adding New Features**:
+6.  **Adding New Features**:
     -   Edit `src/data/features.json`.
     -   Add a new key-value pair with the feature details (Title, Overview, Steps).
     -   Update `src/scripts/featureMapper.js` to assign this new feature key to the relevant trims.
