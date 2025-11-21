@@ -1,3 +1,4 @@
+import { injectSpeedInsights } from './vendor/speed-insights.js';
 import { loadData } from './dataLoader.js';
 import { ModelTrimSelector } from '../components/ModelTrimSelector.js';
 import { FeatureCard } from '../components/FeatureCard.js';
@@ -17,6 +18,7 @@ class App {
     }
 
     async init() {
+        injectSpeedInsights();
         this.checkSplashScreen();
 
         try {
