@@ -208,5 +208,122 @@
             "Release accelerator to come to a full stop.",
             "Great for city driving."
         ]
+    },
+    "TeslaApp": {
+        "title": "Tesla App & NACS Charging",
+        "category": "essentials",
+        "overview": "Use the Tesla app to access Tesla Superchargers.",
+        "steps": [
+            "Download the Tesla app from the App Store or Google Play.",
+            "Create an account or sign in.",
+            "Tap 'Charge Your Non-Tesla' or 'Find a Supercharger'.",
+            "Select a V3 or newer Supercharger station (look for 'Magic Dock').",
+            "Follow in-app prompts to start charging.",
+            "Payment is processed through the Tesla app."
+        ]
+    },
+    "ChargePointApp": {
+        "title": "ChargePoint Network",
+        "category": "essentials",
+        "overview": "One of the largest charging networks in North America.",
+        "steps": [
+            "Download the ChargePoint app.",
+            "Create an account and add a payment method.",
+            "Use the map to find nearby ChargePoint stations.",
+            "Plug in the connector to your vehicle.",
+            "Start charging via the app, RFID card, or contactless payment.",
+            "Monitor charging progress and receive notifications in the app."
+        ]
+    },
+    "ElectrifyAmerica": {
+        "title": "Electrify America DC Fast Charging",
+        "category": "essentials",
+        "overview": "High-speed DC fast charging network across the US.",
+        "steps": [
+            "Download the Electrify America app or use Pass app.",
+            "Create an account for faster checkout.",
+            "Locate a station using the app or in-vehicle navigation.",
+            "Plug in the CCS connector (or NACS with adapter).",
+            "Start charging via app, QR code, or credit card at terminal.",
+            "Charging stops automatically when battery is full or you stop session."
+        ]
+    },
+    "EVgoNetwork": {
+        "title": "EVgo Fast Charging",
+        "category": "essentials",
+        "overview": "Fast charging network in urban and suburban areas.",
+        "steps": [
+            "Download the EVgo app.",
+            "Sign up and add payment information.",
+            "Find stations using the app or in-vehicle nav.",
+            "Park and plug in the charger.",
+            "Authenticate via app, RFID card, or phone number.",
+            "Session ends when you unplug or battery is full."
+        ]
+    },
+    "CCSAdapter": {
+        "title": "CCS Adapter Usage",
+        "category": "essentials",
+        "overview": "How to use CCS (Combined Charging System) adapters.",
+        "steps": [
+            "Keep the adapter in your vehicle's charging port bag.",
+            "Remove the dust cap from the CCS adapter.",
+            "Attach the adapter to the charging station's CCS connector.",
+            "Plug the combined connector into your vehicle's charging port.",
+            "Ensure a secure connection (you'll hear a click).",
+            "Store the adapter properly after use."
+        ]
+    },
+    "NACSTeslaAdapter": {
+        "title": "NACS (Tesla) Adapter",
+        "category": "essentials",
+        "overview": "Using the NACS adapter to charge at Tesla stations.",
+        "steps": [
+            "Obtain a NACS to CCS adapter (from Hyundai or third-party).",
+            "Store it in your vehicle's charging kit.",
+            "At Tesla Superchargers, attach the adapter to the Tesla connector.",
+            "Plug into your vehicle's CCS port.",
+            "Use the Tesla app (for non-Teslas) to start charging.",
+            "Remove adapter carefully after charging (it may be warm)."
+        ]
+    },
+    "HomeCharging": {
+        "title": "Home Charging Setup",
+        "category": "setup",
+        "overview": "Setting up Level 1 and Level 2 home charging.",
+        "steps": [
+            "Level 1: Plug the included charger into a standard 120V outlet.",
+            "Level 2: Have a 240V outlet installed by a licensed electrician.",
+            "Mount the Level 2 charger on a wall or use a pedestal.",
+            "Plug in your vehicle whenever parked at home.",
+            "Use the vehicle or app to schedule charging during off-peak hours.",
+            "Keep the charging cable organized and protected from elements."
+        ]
+    },
+    "ChargingEtiquette": {
+        "title": "Charging Station Etiquette",
+        "category": "setup",
+        "overview": "Best practices for shared charging stations.",
+        "steps": [
+            "Only park at charging spots when actively charging.",
+            "Move your vehicle once charging is complete.",
+            "Don't unplug other vehicles unless requested.",
+            "Report broken or damaged equipment via the app.",
+            "Keep the charging area clean for the next user.",
+            "Be mindful of idle fees at fast charging stations."
+        ]
+    },
+    "RoutePlanning": {
+        "title": "EV Route Planning",
+        "category": "essentials",
+        "overview": "Planning trips with charging stops in mind.",
+        "steps": [
+            "Use the vehicle's navigation system for automatic charging stops.",
+            "Check charging network apps before long trips.",
+            "Plan stops around meals, shopping, or rest breaks.",
+            "Have backup charging locations identified.",
+            "Consider weather impact on range (cold reduces range).",
+            "Pre-condition battery before DC fast charging for optimal speed."
+        ]
     }
 }
